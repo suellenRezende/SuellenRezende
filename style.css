@@ -133,107 +133,91 @@ section {
 }
 
 .cabecalho {
-    display: flex;
-    /* justify-content: space-around;
-    align-content: center; */
+    width: 90vw;
+    height: 40vh;
     color: #f4b36c;
-    /* text-align: center; */
-   
+   display: flex;
+}
+
+.cabecalho h1 {
+margin-left: 35px;
+margin-top: 30px;
+font-size: 2em;
+font-weight: 800;
 }
 
 .cabecalho img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     background-color: #f4b36c;
-    border-radius: 75px;
-    margin-top: -50px;
+    border-radius: 55%;
+    padding-bottom: 3px;
+    margin-top: -40px;
+    margin-left: 20%;
     
 }
 
-.cabecalho img:hover {
- 
-    background-color: #9c764e;
-  
-}
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logoOab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 40px;
-    margin-top: -3%;
-
-}
-
-.logoOab img {
-    width: 70px;
-    max-width: 100%;
-    height: auto;
+.fundoParceiro {
     background: #e6e6e6;
-}
-
-.logoOab p {
-    font-weight: 600;
-    color: #000000;
-    font-size: 9.6px;
-    background: #e6e6e6;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-.fundoOab {
-    background: #e6e6e6;
-    width: 130px;
-    height: 40px;
+    /* width: 130px;
+    height: 40px; */
     padding: 10px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 10px; */
+}
+.parceiro {
+    display: flex;
+    /* justify-content:  center; */
+    background-color: #142366;
 }
 
-.logo img {
-    width: 400px;
-    max-width: 100%;
-    height: auto;
-    padding-top: 40px;
-    padding-bottom: 60px;
+.parceiro h2 {
+    color: white;
+    /* font-size: 2em; */
+    font-weight: 600;
+    padding: 2%;
 }
+.parceiro img {
+    width: 14%;
+    padding: 10px;
+    margin-left: 68%;
+    border-radius: 12px;
+}
+
+
 
 @media only screen and (max-width: 576px) {
-    section h1  {
+   /* celular */
+    /* section  {
         text-align: center;
         padding-top: 50px;
-    }
+    } */
 
-    /* celular */
-    .logo img {
+   
+    /* .logo img {
         width: 70%;
         padding-top: 20px;
         padding-bottom: 30px;
-    }
+    } */
 
-    .logoOab {
+    /* .logoOab {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-bottom: 30px;
         margin-top: -3%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1024px) {
 
     /* desktop */
-    .logo img {
+    /* .logo img {
         width: 400px;
         padding-top: 40px;
         padding-bottom: 60px;
-    }
+    } */
 }
