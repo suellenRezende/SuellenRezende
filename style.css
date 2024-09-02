@@ -162,11 +162,8 @@ font-weight: 800;
     background: #e6e6e6;
     /* width: 130px;
     height: 40px; */
-    padding: 10px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px; */
+    padding: 20px;
+   padding-bottom: 56px;
 }
 .parceiro {
     display: flex;
@@ -191,33 +188,32 @@ font-weight: 800;
 
 @media only screen and (max-width: 576px) {
    /* celular */
-    /* section  {
-        text-align: center;
-        padding-top: 50px;
-    } */
 
-   
-    /* .logo img {
-        width: 70%;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    } */
+ 
+   .cabecalho img {
+   position: relative;
+   margin-top: 6vw;
+   margin-left: 27vw;
+   }
 
-    /* .logoOab {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 30px;
-        margin-top: -3%;
-    } */
+   .cabecalho h1 {
+    display: none;
+    
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
 
     /* desktop */
-    /* .logo img {
-        width: 400px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    } */
+    .cabecalho img {
+        width: 180px;
+        height: 180px;
+        background-color: #f4b36c;
+        border-radius: 55%;
+        padding-bottom: 3px;
+        margin-top: -40px;
+        margin-left: 20%;
+        
+    }
 }
